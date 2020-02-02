@@ -1,24 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style>
     h1 {
         font-family: Lobster;
+        font-size: 100px;
+        color: darkslategray;
+        text-align: center;
+        margin-bottom: 30px;
 
     }
+
+    .small-images {
+        width: 300px;
+        height: 300px;
+        border-style: solid;
+        border-color: deeppink;
+        border-width: 3px;
+        border-radius: 10%;
+        margin-bottom: 30px;
+
+    }
+
+    .big-images {
+        width: 1024px;
+    }
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .columm {
+        float: left;
+
+    }
+
+    .block {
+        width: 1024px;
+        margin: 0 auto;
+    }
+
 
     p {
         font-family: Lobster;
-    }
-    li {
+        color: darkolivegreen"
 
-        font-family: Lobster;
     }
+
+    li {
+        font-family: Lobster;
+        font-size: 16px;
+        color: mediumvioletred"
+
+    }
+
+    dd {
+        font-family: Lobster;
+        margin-bottom: 30px;
+        font-size: 13px;
+    }
+
     button {
         font-family: Lobster;
+        color: mediumvioletred"
+
     }
-    
 </style>
 
 <head>
@@ -26,49 +75,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>BIRDSeva</title>
-</head> <h1 style="color: darkslategray" class="Lobster">Birdseva</h1>
+</head>
+
+<body>
+    <h1 class="Lobster">Birdseva</h1>
     <a href="https://en.wikipedia.org/wiki/Japanese_tit"><img src="http://pngimg.com/uploads/birds/birds_PNG71.png"
-            alt="Birds"></a>
-    <p style="color: darkolivegreen" class="Lobster"> 
-        "Let the bird of loudest lay
-        On the sole Arabian tree
-        Herald sad and trumpet be,
-        To whose sound chaste wings obey.
+            alt="Birds" /></a>
+    <div class="block">
+        <div class="columm">
+            <div class="small-images">
+                <img src="http://pngimg.com/uploads/green_leaves/green_leaves_PNG3615.png" />
+            </div>
+            <div class="small-images">
+                <img src="http://pngimg.com/uploads/green_leaves/green_leaves_PNG3617.png" />
+            </div>
+        </div>
 
-        But thou shrieking harbinger,
-        Foul precurrer of the fiend,
-        Augur of the fever's end,
-        To this troop come thou not near."</p>
+        <div class="columm">
+            <div class="small-images">
+                <img src="http://pngimg.com/uploads/green_leaves/green_leaves_PNG3653.png" />
+            </div>
+            <div class="small-images">
+                <img src="http://pngimg.com/uploads/green_leaves/green_leaves_PNG3669.png" />
+            </div>
+        </div>
+    </div>
+    <div class="big-images">
+        <img src="http://pngimg.com/uploads/green_leaves/green_leaves_PNG3620.png" />
+    </div>
 
 
-    <p style="color: darkolivegreen"> Birds are a group of warm-blooded vertebrates constituting the class Aves, characterized by feathers, toothless
+
+    <p class="Lobster">
+        <strong>"Let the bird of loudest lay
+            On the sole Arabian tree
+            Herald sad and trumpet be,
+            To whose sound chaste wings obey.
+
+            But thou shrieking harbinger,
+            Foul precurrer of the fiend,
+            Augur of the fever's end,
+            To this troop come thou not near."</strong></p>
+
+
+    <p> Birds are a group of warm-blooded vertebrates constituting the class Aves, characterized by feathers, toothless
         beaked jaws, the laying of hard-shelled eggs, a high metabolic rate, a four-chambered heart, and a strong yet
         lightweight skeleton.</p>
 
-    <p style="color: darkolivegreen"> What is your favorite bird species?</p>
+    <p> What is your favorite bird species?</p>
+</body>
 <div>
     <form>
-    <ul>
-        <li style="color: mediumvioletred" class="Lobster"><a href="https://en.wikipedia.org/wiki/Penguin" target="_blank" style="color: mediumvioletred">Penguin</a>
-         <labeL for value Penguin><input type="radio" value="Penguin" name="choice"></labeL></li>
-        <li style="color: mediumvioletred"><a href="https://en.wikipedia.org/wiki/Parrot" target="_blank" style="color: mediumvioletred">Parrot</a>
-        <labeL for value Parrot><input type="radio" value="Parrot" name="choice"></labeL></li>
-        <li style="color: mediumvioletred"><a href="https://en.wikipedia.org/wiki/Owl" target="_blank" style="color:mediumvioletred">Owl</a>
-        <labeL for value Owl><input type="radio" value="Owl" name="choice"></labeL></li>
-        <li style="color: mediumvioletred"><a href="https://en.wikipedia.org/wiki/Toucan" target="_blank" style="color:mediumvioletred">Toucan</a>
-        <labeL for value Toucan><input type="radio" value="Toucan" name="choice"></labeL></li>
-        <li style="color: mediumvioletred"><a href="https://en.wikipedia.org/wiki/Woodpecker" target="_blank" style="color: mediumvioletred">Woodpecker</a>
-        <labeL for value Woodpecker><input type="radio" value="Woodpecker" name="choice"></labeL></li>
-    </ul>
-    <button class="Lobster" type="submit" style="color:mediumvioletred">Favorite</button>
-</form>
+        <dl>
+            <div>
+                <li><a href="https://en.wikipedia.org/wiki/Penguin" target="_blank">Penguin</a>
+                    <labeL for value Penguin><input type="radio" value="Penguin" name="choice"></labeL></li>
+                    <dd>Penguins are a group of aquatic flightless birds.</dd>
+            </div>
+
+            <div>
+                <li><a href="https://en.wikipedia.org/wiki/Parrot" target="_blank">Parrot</a>
+                    <labeL for value Parrot><input type="radio" value="Parrot" name="choice"></labeL></li>
+                <dd>Parrots, also known as psittacines, are birds of the roughly 393 species in 92 genera comprising the
+                    order Psittaciformes, found mostly in tropical and subtropical regions.</dd>
+            </div>
+
+            <div>
+                <li><a href="https://en.wikipedia.org/wiki/Owl" target="_blank">Owl</a>
+                    <labeL for value Owl><input type="radio" value="Owl" name="choice"></labeL></li>
+                <dd>Owls are birds from the order Strigiformes, which includes about 200 species of mostly solitary and
+                    nocturnal birds of prey typified by an upright stance, a large, broad head, binocular vision,
+                    binaural hearing, sharp talons, and feathers adapted for silent flight.</dd>
+            </div>
+
+            <div>
+                <li><a href="https://en.wikipedia.org/wiki/Toucan" target="_blank">Toucan</a>
+                    <labeL for value Toucan><input type="radio" value="Toucan" name="choice"></labeL></li>
+                <dd>Toucans are members of the Neotropical near passerine bird family Ramphastidae. The Ramphastidae are
+                    most closely related to the American barbets. They are brightly marked and have large,
+                    often-colorful bills.</dd>
+            </div>
+
+            <div>
+                <li><a href="https://en.wikipedia.org/wiki/Woodpecker" target="_blank">Woodpecker</a>
+                    <labeL for value Woodpecker><input type="radio" value="Woodpecker" name="choice"></labeL></li>
+                <dd>Woodpeckers are part of the family Picidae, a group of near-passerine birds that also consist of
+                    piculets, wrynecks, and sapsuckers.</dd>
+            </div>
+        </dl>
+        <button class="Lobster" type="submit">Favorite</button>
+    </form>
 </div>
 <div>
-   <p style="color: darkolivegreen">What Kind of Bird Reflects Your Soul?</p>
-   <form>
-    <p style="color: darkolivegreen">Tell us:</p>
-    <input type="text">
-</form>
+    <p>What Kind of Bird Reflects Your Soul?</p>
+    <form>
+        <p>Tell us:</p>
+        <input type="text">
+    </form>
 </div>
 
 
